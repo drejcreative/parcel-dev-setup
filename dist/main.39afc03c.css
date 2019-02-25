@@ -125,14 +125,16 @@ body {
     border-bottom: 1px solid var(--dark);
     padding-bottom: 20px;
     margin-bottom: 20px;
-    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px var(--contrast), 0 0 30px var(--contrast), 0 0 40px var(--contrast), 0 0 50px var(--contrast), 0 0 75px var(--contrast);
+    letter-spacing: 5px; }
     @media only screen and (max-width: 800px) {
       .hero__header {
         font-size: 30px; } }
     .hero__header .highlight {
       padding: 15px 20px;
       text-shadow: none;
-      color: var(--dark);
+      color: var(--ligh);
       background: var(--contrast);
       cursor: pointer;
       width: 100px; }
