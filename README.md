@@ -2,7 +2,7 @@
 [Visit App](https://drejcreative.github.io/parcel-dev-setup/)
 ![Project Screenshot](app.png)
 
-This is Parcel Development setup which has a good starting setup for website and web apps build. You can use the latest and greatest fro JavaScript world as it has Babel Integrated.
+This is Parcel Development setup which has a good starting setup for website and web apps build. You can use the latest and greatest from JavaScript world as it has Babel Integrated.
 
 > You can use CSS or SCSS or Both. It has Autoprefixer integrated. You can change Autoprefixer covering range in `package.json`.
 
