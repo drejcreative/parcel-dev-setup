@@ -7,4 +7,4 @@ var t;!function(e,s){"object"==typeof exports&&"object"==typeof module?module.ex
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=o(require("particlesjs")),t=o(require("typed.js"));function o(e){return e&&e.__esModule?e:{default:e}}e.default.init({selector:".background",color:["#ffffff","#f55656"],maxParticles:150,connectParticles:!0,responsive:[{breakpoint:768,options:{maxParticles:100,color:["#ffffff","#f55656"],connectParticles:!0}},{breakpoint:425,options:{maxParticles:50,connectParticles:!0}},{breakpoint:320,options:{maxParticles:0}}]});var r={strings:["You can use ES6 and newer JS verion outside the box","You can use CSS and SCSS. It has an Autoprefixer integrated","You can use Images, Fonts, and IcoFonts","You have Dev Server with live reload"],typeSpeed:150,startDelay:1e3,loop:!0,loopCount:1/0},a=new t.default(".hero__subheader",r);
 },{"particlesjs":"BYhn","typed.js":"nzgf"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.f3313128.map
+//# sourceMappingURL=/parcel-dev-setup/src.f3313128.map

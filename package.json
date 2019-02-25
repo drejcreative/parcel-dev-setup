@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "description": "Parceh website or web app development setup",
+  "homepage": "https://github.com/drejcreative/parcel-dev-setup",
   "author": { 
     "name" : "Andrej Vajagic", 
     "email" : "andrejv@drejcreative.com", 
@@ -11,7 +12,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html --open",
-    "prod": "parcel build src/index.html"
+    "prod": "parcel build src/index.html --public-url /parcel-dev-setup",
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": [
     "> 1%",
