@@ -1,0 +1,31 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Parceh website or web app development setup",
+  "author": { 
+    "name" : "Andrej Vajagic", 
+    "email" : "andrejv@drejcreative.com", 
+    "url" : "http://drejcreative.com/"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "prod": "parcel build src/index.html"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "autoprefixer": "^9.4.9",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "particlesjs": "^2.2.3",
+    "typed.js": "^2.0.10"
+  }
+}

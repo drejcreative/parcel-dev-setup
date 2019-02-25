@@ -1,0 +1,21 @@
+// Import Config
+@import './scss/config/colors';
+
+// Import Base
+@import './scss/base/reset';
+@import './scss/base/icons';
+@import './scss/base/fonts';
+
+// Import Layout
+@import './scss/layout/page';
+@import './scss/layout/main';
+@import './scss/layout/hero';
+@import './scss/layout/footer';
+
+:root {
+  --primary:       #323D42;
+  --secondary:     #3074BB;
+  --contrast:      #f55656;
+  --dark:          #211f20;
+  --light:         #ffffff;
+}
