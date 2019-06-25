@@ -1,4 +1,4 @@
-# Movie Place
+# Parcel Development setup
 [Visit App](https://drejcreative.github.io/parcel-dev-setup/)
 ![Project Screenshot](app.png)
 
@@ -10,6 +10,9 @@ This is Parcel Development setup which has a good starting setup for website and
 
 > It has an integrated web server with live reload on file change.
 
+##Install
+Clone Project with `git clone https://github.com/drejcreative/parcel-dev-setup.git`
+Cd into Project folder and run `npm i` for installing all npm dependencies
 
 ## Development server
 Run `yarn run dev` for a dev server. It will automatically open your default browser and show the app. It has live reload integrated.
