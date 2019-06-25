@@ -11,8 +11,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/index.html --open",
-    "prod": "parcel build src/index.html --public-url /parcel-dev-setup",
+    "dev": "parcel ./src/index.html --open",
+    "prod": "parcel ./build src/index.html --public-url /parcel-dev-setup",
     "deploy": "gh-pages -d dist"
   },
   "browserslist": [
@@ -21,13 +21,14 @@
     "not ie <= 8"
   ],
   "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "autoprefixer": "^9.4.9",
-    "node-sass": "^4.11.0",
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.6.0",
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0",
     "parcel-bundler": "^1.11.0"
   },
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "particlesjs": "^2.2.3",
     "typed.js": "^2.0.10"
   }

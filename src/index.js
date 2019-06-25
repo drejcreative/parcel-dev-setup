@@ -2,7 +2,7 @@ import Particles from 'particlesjs';
 import Typed from 'typed.js';
 
 Particles.init({
-	selector: '.background',
+  selector: '.background',
   color: ['#ffffff', '#f55656'],
   maxParticles: 150,
   connectParticles: true,

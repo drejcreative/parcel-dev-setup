@@ -39,8 +39,8 @@ table {
 
 @font-face {
   font-family: "icomoon";
-  src: url("icomoon.1ca4cec9.eot?vmst2t");
-  src: url("icomoon.1ca4cec9.eot?vmst2t#iefix") format("embedded-opentype"), url("icomoon.6b8bcbf5.ttf?vmst2t") format("truetype"), url("icomoon.9f9cefce.woff?vmst2t") format("woff"), url("icomoon.e8525941.svg?vmst2t#icomoon") format("svg");
+  src: url("/icomoon.1ca4cec9.eot?vmst2t");
+  src: url("/icomoon.1ca4cec9.eot?vmst2t#iefix") format("embedded-opentype"), url("/icomoon.6b8bcbf5.ttf?vmst2t") format("truetype"), url("/icomoon.9f9cefce.woff?vmst2t") format("woff"), url("/icomoon.e8525941.svg?vmst2t#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -98,7 +98,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(nature.1ac278c7.jpg) center center no-repeat;
+  background: url(/nature.1ac278c7.jpg) center center no-repeat;
   background-size: cover;
   z-index: 1; }
   .main:before {
@@ -197,3 +197,6 @@ body {
   --contrast:      #f55656;
   --dark:          #211f20;
   --light:         #ffffff; }
+
+
+/*# sourceMappingURL=/main.39afc03c.css.map */
